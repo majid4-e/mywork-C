@@ -1,0 +1,7 @@
+int alarm (int count)
+#include <stdio.h>
+main ()
+{
+alarm (5) ; /* schedule an alarm signal in 5 seconds */
+printf ("Looping forever ...\n") ;
+while ( 1 ) ;
